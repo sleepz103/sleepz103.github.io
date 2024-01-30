@@ -1,6 +1,6 @@
 # CV
 
-Szymon Rybicki
+
 
 IMS
 
