@@ -13,4 +13,4 @@ basics of C#
 little bit of SQL
 
 
-![](giphy.gif)
+![](small cat dance.gif) ![](small cat dance.gif) ![](small cat dance.gif) ![](small cat dance.gif) ![](small cat dance.gif) ![](small cat dance.gif) ![](small cat dance.gif)
