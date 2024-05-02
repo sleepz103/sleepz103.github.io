@@ -6,11 +6,14 @@ IMS
 
 
 
-## Technology
+## Digital Skill
 
-basics of C#
+posting missinformation
 
-little bit of SQL
+first to programm tic tac toe in class C# (source:me)
 
+expierienced in finding SQL backup files
+
+html & css hard worker😎
 
 ![](smallcatdance.gif) ![](smallcatdance.gif) ![](smallcatdance.gif) ![](smallcatdance.gif) ![](smallcatdance.gif)
