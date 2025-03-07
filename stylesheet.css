@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--text)
 }
 body {
     display: grid;
@@ -31,6 +32,9 @@ aside.left {
 }
 main {
     grid-row: 2;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-template-rows: 1fr;
 }
 aside.right {
     grid-column: 3;
@@ -39,5 +43,9 @@ aside.right {
 }
 
 .primary_box{
-    
+    grid-column: 1;
+}
+
+.secondary_box{
+    grid-column: 2;
 }
