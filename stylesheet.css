@@ -12,6 +12,12 @@
     color: var(--text);
     font-family: Noto Sans;
 }
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+}
 body {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
@@ -39,7 +45,9 @@ main {
 aside.right {
     grid-column: 3;
     grid-row: 2;
-    /*background-color: #00e5ff;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 #primary_box{
@@ -79,6 +87,7 @@ aside.right {
     padding-right: 10px;
     border-radius: 25px;
     align-content: center;
+    text-decoration: none;
 }
 
 
