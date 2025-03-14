@@ -1,5 +1,4 @@
 *{
-    border: 1px red solid;
     --primary: #FFB200;
     --secondary: #F7EED3;
     --accent: #674636;
@@ -10,7 +9,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--text)
+    color: var(--text);
+    font-family: Noto Sans;
 }
 body {
     display: grid;
@@ -42,18 +42,50 @@ aside.right {
     /*background-color: #00e5ff;*/
 }
 
-.primary_box{
+#primary_box{
     grid-column: 1;
 }
 
-.secondary_box{
+#secondary_box{
     grid-column: 2;
+    display: flex;
+    align-items: center;
 }
 
-.noto-sans-<uniquifier> {
+.info_box{
+    background: var(--secondary);
+    flex-grow: 1;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#name{
+    font-size: 120px;
+}
+
+#buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.button{
+    background: var(--primary);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    align-content: center;
+}
+
+
+.noto-sans-special-font {
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 900;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
