@@ -1,7 +1,8 @@
 *{
     --primary: #FFB200;
+    --primary_accent: #fccf68;
     --secondary: #F7EED3;
-    --accent: #674636;
+    --accent: #a4cf6d;
     --background: #FFF8E8;
     --text: #674636;
 }
@@ -15,26 +16,40 @@
 header{
     display: flex;
     justify-content: flex-end;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin-right: 29px;
 }
 body {
+
+    /*gap: 10px;*/
+    background-color: var(--background);
+}
+.slice {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     grid-template-rows: auto 3fr auto;
     height: 100vh;
-    /*gap: 10px;*/
-    background-color: var(--background);
 }
+
 header {
     grid-column: 1 / 4;
     grid-row: 1;
     height: 64px;
+    top: 0;
+    position: sticky;
 }
 aside.left {
     grid-column: 1;
     grid-row: 2;
     /*background-color: #0051ff;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.side_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 main {
     grid-row: 2;
@@ -50,11 +65,13 @@ aside.right {
     align-content: center;
 }
 
-#primary_box{
+.primary_space{
     grid-column: 1;
+    display: flex;
+    align-items: center;
 }
 
-#secondary_box{
+.secondary_space{
     grid-column: 2;
     display: flex;
     align-items: center;
@@ -69,6 +86,35 @@ aside.right {
     font-size: 60px;
     padding: 10px;
     border-radius: 25px;
+}
+
+
+#secondary_info {
+    background: var(--secondary);
+    flex-grow: 1;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 25px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.card_space {
+    width: 40%;
+    height: 40%;
+    background-color: var(--accent);
+    border-radius: 1vh;
+}
+
+.card_project {
+    display: flex;
+
+}
+
+.card_project .name {
+    background-color: white;
 }
 
 #name{
@@ -89,7 +135,6 @@ aside.right {
     align-content: center;
     text-decoration: none;
 }
-
 
 .noto-sans-special-font {
     font-family: "Noto Sans", sans-serif;
