@@ -6,6 +6,10 @@
     --background: #FFF8E8;
     --text: #674636;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
