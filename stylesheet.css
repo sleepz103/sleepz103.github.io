@@ -16,11 +16,9 @@
 header{
     display: flex;
     justify-content: flex-end;
-    margin-right: 29px;
+    margin-right: 2vw;
 }
 body {
-
-    /*gap: 10px;*/
     background-color: var(--background);
 }
 .slice {
@@ -33,14 +31,13 @@ body {
 header {
     grid-column: 1 / 4;
     grid-row: 1;
-    height: 64px;
+    height: 5vw;
     top: 0;
     position: sticky;
 }
 aside.left {
     grid-column: 1;
     grid-row: 2;
-    /*background-color: #0051ff;*/
     display: flex;
     justify-content: center;
     align-content: center;
@@ -80,12 +77,12 @@ aside.right {
 .info_box{
     background: var(--secondary);
     flex-grow: 1;
-    height: 500px;
+    height: 75%;
     display: flex;
     flex-wrap: wrap;
-    font-size: 60px;
-    padding: 10px;
-    border-radius: 25px;
+    font-size: 6.5ch;
+    padding: 1vw;
+    border-radius: 2rem; 
 }
 
 
@@ -95,8 +92,8 @@ aside.right {
     height: 90%;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
-    border-radius: 25px;
+    padding: 0.3em; 
+    border-radius: 1.5em;
     justify-content: space-around;
     align-content: space-around;
 }
@@ -104,7 +101,6 @@ aside.right {
 .card_space {
     width: 40%;
     height: 40%;
-    background-color: var(--accent);
     position: relative;
 }
 
@@ -114,15 +110,18 @@ aside.right {
     position: absolute;
 }
 
-.card_space .project_image {
-    width: 100%;
+.card_space .project_image *{
     height: 90%;
-    background-color:lightblue;
     border-radius: 1vw 1vw 0vw 0vw;
 }
 
+.card_space .project_image img{
+    width: 100%;
+    height: auto;
+}
+
 .card_space .project_name {
-    background-color: white;
+    background-color: var(--primary);
     z-index: 10;
     bottom: 0;
     left: 0;
@@ -134,15 +133,15 @@ aside.right {
 .card_space .project_name .text {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 90%;
     font-size: 2vw;
-    
 }
 
 
 
 #name{
-    font-size: 120px;
+    font-size: 9rem;
 }
 
 #buttons{
@@ -153,9 +152,8 @@ aside.right {
 
 .button{
     background: var(--primary);
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 25px;
+    padding: 0em 1vw;
+    border-radius: 0.3em;
     align-content: center;
     text-decoration: none;
 }
