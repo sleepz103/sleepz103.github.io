@@ -49,13 +49,26 @@ aside.left {
     grid-row: 2;
     display: flex;
     justify-content: center;
-    align-content: center;
 }
 .side_content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+
+aside.left .side_content {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+aside.left .side_content .column{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 
 main {
