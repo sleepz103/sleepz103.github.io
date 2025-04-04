@@ -7,6 +7,11 @@
     --text: #674636;
 }
 
+mark {
+    background-color: transparent;
+    color: var(--primary);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -52,6 +57,7 @@ aside.left {
     justify-content: center;
     align-content: center;
 }
+
 main {
     grid-row: 2;
     display: grid;
@@ -87,6 +93,7 @@ aside.right {
     font-size: 6.5ch;
     padding: 1vw;
     border-radius: 2rem; 
+    text-shadow: 1px 1px 1px var(--text);
 }
 
 #my_description{
