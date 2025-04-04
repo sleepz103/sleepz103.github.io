@@ -89,6 +89,10 @@ aside.right {
     border-radius: 2rem; 
 }
 
+#my_description{
+    font-size: 1ch;
+}
+
 
 #secondary_info {
     background: var(--secondary);
@@ -114,14 +118,18 @@ aside.right {
     position: absolute;
 }
 
-.card_space .project_image *{
-    height: 90%;
+.card_space .project_image{
+    height: 100%;
+    width: 100%;
     border-radius: 1vw 1vw 0vw 0vw;
 }
 
 .card_space .project_image img{
     width: 100%;
-    height: auto;
+    height: 90%;
+    object-fit: cover;
+    display: block;
+    border-radius: 1vw 1vw 0vw 0vw;
 }
 
 .card_space .project_name {
