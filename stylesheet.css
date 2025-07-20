@@ -109,8 +109,12 @@ aside.right {
     text-shadow: 1px 1px 1px var(--text);
 }
 
-#my_description{
-    font-size: 1ch;
+#my_description {
+    font-size: clamp(1.2rem, 2vw, 1.7rem);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 
@@ -198,3 +202,12 @@ aside.right {
     font-variation-settings:
       "wdth" 100;
   }
+
+.primary-img {
+    width: calc(100% - 8px); /* slightly smaller than parent */
+    height: auto;
+    display: block;
+    border-radius: 1.2em; /* smooth corners */
+    margin: 4px; /* small margin for spacing */
+    /* Optional: object-fit: contain; */
+}
